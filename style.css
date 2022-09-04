@@ -1,12 +1,12 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    color: #e8e8e9;
+    color:  #f2f4f3;
 }
 body{
-    background-color: #289944;
+    background-color:  #06aed5;
 }
 .calculator-container{
-    background-color: #0e3013;
+    background-color: #086788;
     width: 400px;
     height: 400px;
     display: grid;
@@ -25,25 +25,42 @@ body{
     font-weight: 500;
 }
 .inputContainer{
-    background-color: #e8e8e9;
+    background-color: #06aed5;
     border-radius: 20px;
     padding-left: 15px;
 }
 .input{
-    background-color: #e8e8e8;
+    background-color: #06aed5;
     border: none;
     outline: none;
     font-size: 1.4rem;
-    color: #040f0f;
+    color:  #f2f4f3;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+::placeholder {
+        
+    /* Firefox, Chrome, Opera */
+    color: #f2f4f3;
+}
+  
+:-ms-input-placeholder {
+    
+    /* Internet Explorer 10-11 */
+    color: #f2f4f3;
+}
+  
+::-ms-input-placeholder {
+    
+    /* Microsoft Edge */
+    color: #f2f4f3;
+}
 .symbol{
     font-size: 1.4rem;
-    color: #040f0f;
+    color: #f2f4f3;
 }
 .buttonContainer{
     display: flex;
@@ -55,8 +72,8 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 .btn{
-    background-color: #e8e8e9;
-    color: #040f0f;
+    background-color: #06aed5;
+    color:  #f2f4f3;
     font-size: 1.5rem;
     width: 35px;
     display: flex;
